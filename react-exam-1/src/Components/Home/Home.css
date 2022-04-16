@@ -1,0 +1,30 @@
+
+.table{
+    background-color: rgb(196, 255, 255);
+    width: 70%;
+   margin: auto;
+   margin-top: 50px;
+}
+.table thead{
+    background-color: aqua;
+}
+
+button{
+    font-size: 13px;
+    background-color:rgb(126, 235, 252) ;
+    border: 0px ;
+}
+
+.sort{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.sort button{
+    font-size: 16px;
+    background-color:rgb(5, 5, 5);
+    color: white;
+}

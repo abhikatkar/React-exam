@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "city": "\tDelhi",
+      "population": "19000000",
+      "country": "India"
+    },
+    {
+      "id": "2",
+      "city": "Colombo",
+      "population": "5600000",
+      "country": "SriLanka"
+    },
+    {
+      "id": "3",
+      "city": "Chicago",
+      "population": "2920000",
+      "country": "USA"
+    }
+  ]
+}
