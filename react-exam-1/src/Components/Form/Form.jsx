@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import "../Form/Form.css";
 
@@ -18,20 +17,20 @@ export const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3344/data",{
-        method:"POST",
-        body:JSON.stringify(form),
-        headers:{
-            "content-type":"application/json"
-        }
-    }).then(()=>{
-        alert("submitted")
+    fetch("http://localhost:3344/data", {
+      method: "POST",
+      body: JSON.stringify(form),
+      headers: {
+        "content-type": "application/json",
+      },
+    }).then(() => {
+      alert("submitted");
     });
   };
 
   return (
     <div>
-      <h1>form</h1>
+      <h3>Add country and city info</h3>
 
       <form onSubmit={handleSubmit}>
         <input
